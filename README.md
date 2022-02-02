@@ -1,5 +1,7 @@
 # iOS desde cero
 
+![](img/ios-desde-cero.png)
+
 ## ¿Qué es esto?
 
 [iOS desde Cero](https://www.twitch.tv/dfreniche) es un Streaming en 🇪🇸 sobre desarrollo iOS, que puedes seguir en directo en Twitch. O en diferido en mi [canal de Youtube](). Es un stream, así que no esperes un curso, o un video perfectamente elaborado. Cometeré errores, me verás teclear el código, depurar programas y mirar la documentación. StackOverflow hará más de una aparición estelar. Es real como la vida misma.
@@ -26,6 +28,11 @@ Si cancelo algún episodio lo anunciaré por [Twitter](https://twitter.com/dfren
 - __Conocimientos básicos de programación__. No es imprescindible conocer Swift, aunque ayuda.
 - __Ganas de programar y pasar un buen rato__. Esto no es el trabajo o los estudios. Es para pasarlo bien y compartir.
 
+## Pero, de qué vas a hablar
+
+Aunque tengo una idea muy general de [lo que voy a ir viendo en los distintos episodios](Episodios.md), se verá lo que la comunidad quiera. 
+
+Es decir, que si algo no se entiende, se volverá a ver. Si hay interés en ver algo concreto, igual. Siempre recordando que esto es un canal para gente empezando con iOS y no es consultoría gratis. Esa la cobro aparte. Y caro. 💸
 
 ## Recursos
 

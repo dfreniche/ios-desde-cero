@@ -25,12 +25,14 @@
         - Simulador iOS: seleccionar el Sim, uso básico
         - SwiftUI Previews
 - Ep 1
+    - [Text]()
     - [Label](https://developer.apple.com/documentation/swiftui/label) 
-    - TextView
+        - Texto + icono!
     - Button
     - 💻 programa que imprima tu nombre en un Label
     - 💻 Adivina el número que estoy pensando
 - Ep 2
+    - [Text](https://developer.apple.com/documentation/swiftui/text)
     - Image (local)
     - List
         - forEach
