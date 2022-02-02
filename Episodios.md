@@ -1,0 +1,65 @@
+(Este es un doc. que uso para tener un guión / idea de qué hablar en cada episodio. Puede cambiar y cambiará sobre la marcha y sin previo aviso)
+
+## Ideas para los episodios
+
+- Ep 0
+    - presentación del canal
+    - Qué vamos a ver y qué no
+        - SwiftUI vs UIKit
+        - Objective C vs Swift
+    - instalación de herramientas: [Xcode](https://developer.apple.com/xcode/)
+    - cuenta developer en Apple
+    - Playgrounds Swift
+        - Código en Inglés
+        - let / var
+        - class / struct
+        - array
+        - funciones
+        - if
+    - Hello World iOS!
+        - crear el proyecto
+        - ficheros, File Navigator ⌘+1
+        - código
+            - @main
+            - App protocol
+        - Simulador iOS: seleccionar el Sim, uso básico
+        - SwiftUI Previews
+- Ep 1
+    - [Label](https://developer.apple.com/documentation/swiftui/label) 
+    - TextView
+    - Button
+    - 💻 programa que imprima tu nombre en un Label
+    - 💻 Adivina el número que estoy pensando
+- Ep 2
+    - Image (local)
+    - List
+        - forEach
+        - usando array
+- Ep 3
+    - Networking
+        - crear un hosting estático en MongoDB Realm
+            - buscar una API y copiar el JSON
+            - hospedarlo de manera estática
+            - Ej: https://dog.ceo/api/breeds/list/all
+            - Ej: https://application-0-xbjwv.mongodbstitch.com/example.json
+        - acceder a la red para bajar una imagen
+        - bajar JSON de la red
+            - parseo de JSON
+- Ep Debugging sencillo
+- Ep Debugging avanzado
+- Ep XX
+    - Testing
+    - Unit Testing con XCFramework
+- Ep XX
+    - DocC
+- Ep XX
+    - Compilando desde la línea de comandos
+    - Github Actions
+- Ep XX
+    - Incorporando librerías de terceros: SPM
+    - 
+- Ep XX
+    - Creando nuestros propios paquetes con SPM!
+    - Local Packages
+
+
