@@ -4,19 +4,30 @@
 
 ## ¿Qué es esto?
 
-[iOS desde Cero](https://www.twitch.tv/dfreniche) es un Streaming en 🇪🇸 sobre desarrollo iOS, que puedes seguir en directo en Twitch. O en diferido en mi [canal de Youtube](). Es un stream, así que no esperes un curso, o un video perfectamente elaborado. Cometeré errores, me verás teclear el código, depurar programas y mirar la documentación. StackOverflow hará más de una aparición estelar. Es real como la vida misma.
+[iOS desde Cero](https://www.twitch.tv/dfreniche) es un Streaming en 🇪🇸 sobre desarrollo iOS, que puedes seguir en directo en Twitch. O en diferido en mi [canal de Youtube](https://www.youtube.com/user/dfreniche). Es un stream, así que no esperes un curso, o un video perfectamente elaborado. Cometeré errores, me verás teclear el código, depurar programas y mirar la documentación. StackOverflow hará más de una aparición estelar. Es real como la vida misma.
 
 ## ¿Cuándo lo perpetras?
 
 Los episodios se emiten Martes y Jueves en horario:
 
-|               | Martes y Jueves |
-| :-------------| :----------: | 
-| 🇪🇸 Madrid  | 19:00        | 
-| 🇨🇴 Bogotá  | 13:00        | 
-| 🇦🇷 Buenos Aires  | 15:00        | 
-| 🇲🇽 Mexico DF  | 12:00        | 
-| 🇲🇨 Santiago de Chile  | 15:00    | 
+|          | Martes y Jueves |
+| :--------| :---------- | 
+| 12:00    | 🇲🇽 Ciudad de México  | 
+| 12:00    | 🇨🇷 San José  |  
+| 13:00    | 🇨🇴 Bogotá  | 
+| 13:00    | 🇵🇦 Ciudad de Panamá  |  
+| 13:00    | 🇨🇺 La Habana  |  
+| 13:00    | 🇵🇪 Lima  |  
+| 13:00    | 🇪🇨 Quito  |  
+| 14:00    | 🇻🇪 Caracas  |  
+| 14:00    | 🇧🇴 La Paz  |  
+| 15:00    | 🇵🇾 Asunción  |  
+| 15:00    | 🇦🇷 Buenos Aires  |
+| 15:00    | 🇺🇾 Montevideo  |  
+| 15:00    | 🇨🇱 Santiago de Chile  |  
+| 19:00    | 🇪🇸 Madrid   |  
+
+Si echas de menos la capital de tu país, abre un [issue](https://github.com/dfreniche/ios-desde-cero/issues)
 
 Si cancelo algún episodio lo anunciaré por [Twitter](https://twitter.com/dfreniche) y puedes consultarlo la planificación en [Twitch](https://www.twitch.tv/dfreniche/schedule)
 
