@@ -7,36 +7,61 @@
     - Qué vamos a ver y qué no
         - SwiftUI vs UIKit
         - Objective C vs Swift
+    - Este repo como punto de encuentro
+        - issues
+        - Code of Conduct
     - instalación de herramientas: [Xcode](https://developer.apple.com/xcode/)
-    - cuenta developer en Apple
-    - Playgrounds Swift
+    - cuenta developer en Apple, merece la pena?
+        - tipos de cuentas de desarrollador
+    - Las mejores prácticas
+    - the daily refactor featuring Martin Fowler (not)
+    - Playgrounds Swift y el mínimo Swift imprescindible
         - Código en Inglés
-        - let / var
-        - class / struct
-        - array
+        - `let / var`
+        - `class / struct`
+        - `array`
+        - `if`
         - funciones
-        - if
+            - argumentos de funciones
+            - omitir `return`
+        - clausuras
+            - argumentos en clausuras
+            - `$0`, etc.
+            - trailing closures
     - Hello World iOS!
         - crear el proyecto
         - ficheros, File Navigator ⌘+1
         - código
             - @main
             - App protocol
-        - Simulador iOS: seleccionar el Sim, uso básico
-        - SwiftUI Previews
+        - Simulador iOS: seleccionar el Sim
+        - ejecución y parada del proyecto
 - Ep 1
-    - [Text]()
+    - [Text](https://developer.apple.com/documentation/swiftui/text)
+        - `foregroundColor`
+        - `background`
+        - `padding`
+        - `shadow`
+    - SwiftUI Previews
+        - ⚠️ no ejecutar en Macs con procesador Core i🔥 else 🚁
+        - cambiar propiedades de las previews
+        - múltiples dispositivos
+        - `// MARK: - SwiftUI Previews` comments
     - [Label](https://developer.apple.com/documentation/swiftui/label) 
         - Texto + icono!
-    - Button
+        - [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/), app SFSymbols
+    - [VStack](https://developer.apple.com/documentation/swiftui/vstack)
+    - [Button](https://developer.apple.com/documentation/swiftui/button)
+    - `@state` variables
     - 💻 programa que imprima tu nombre en un Label
     - 💻 Adivina el número que estoy pensando
 - Ep 2
-    - [Text](https://developer.apple.com/documentation/swiftui/text)
     - Image (local)
+    - Image (remoto, blocking UIThread)
     - List
-        - forEach
+        - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
         - usando array
+    - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
 - Ep 3
     - Networking
         - crear un hosting estático en MongoDB Realm
@@ -49,6 +74,18 @@
             - parseo de JSON
 - Ep Debugging sencillo
 - Ep Debugging avanzado
+- Ep code signing
+    - bit
+- Ep maps
+    - GPS
+    - Pedir permisos
+- Sensores
+    - Cámara y permisos
+    - Acelerómetro
+    - 💻 App estaciones del año
+- UIKit 
+    - UIKit Dynamics
+    - SpriteKit particle generator
 - Ep XX
     - Testing
     - Unit Testing con XCFramework

@@ -29,7 +29,7 @@ Los episodios se emiten Martes y Jueves en horario:
 
 Si echas de menos la capital de tu país, abre un [issue](https://github.com/dfreniche/ios-desde-cero/issues)
 
-Si cancelo algún episodio lo anunciaré por [Twitter](https://twitter.com/dfreniche) y puedes consultarlo la planificación en [Twitch](https://www.twitch.tv/dfreniche/schedule)
+Si cancelo algún episodio lo anunciaré por [Twitter](https://twitter.com/dfreniche) y puedes consultar la planificación en [Twitch](https://www.twitch.tv/dfreniche/schedule)
 
 ## Requisitos para seguir el Streaming
 
