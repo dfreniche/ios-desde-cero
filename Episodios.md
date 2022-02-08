@@ -14,11 +14,12 @@
     - cuenta developer en Apple, merece la pena?
         - tipos de cuentas de desarrollador
     - Las mejores prácticas
-    - the daily refactor featuring Martin Fowler (not)
     - Playgrounds Swift y el mínimo Swift imprescindible
         - Código en Inglés
         - `let / var`
         - `class / struct`
+            - structs: value types
+            - fluent API para "cambiar" un Struct
         - `array`
         - `if`
         - funciones
@@ -38,30 +39,43 @@
         - ejecución y parada del proyecto
 - Ep 1
     - [Text](https://developer.apple.com/documentation/swiftui/text)
-        - `foregroundColor`
-        - `background`
-        - `padding`
-        - `shadow`
+        - Modifiers
+            - `foregroundColor`
+            - `background`
+            - `padding`
+            - `font`
+            - `fontWeight`
+            - `shadow`
     - SwiftUI Previews
         - ⚠️ no ejecutar en Macs con procesador Core i🔥 else 🚁
         - cambiar propiedades de las previews
         - múltiples dispositivos
         - `// MARK: - SwiftUI Previews` comments
+    - [Color](https://developer.apple.com/documentation/swiftui/color)
+    - Attributes Inspector `⌥ + ⌘ + 4`
     - [Label](https://developer.apple.com/documentation/swiftui/label) 
         - Texto + icono!
         - [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/), app SFSymbols
     - [VStack](https://developer.apple.com/documentation/swiftui/vstack)
+    - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
     - [Button](https://developer.apple.com/documentation/swiftui/button)
     - `@state` variables
     - 💻 programa que imprima tu nombre en un Label
     - 💻 Adivina el número que estoy pensando
 - Ep 2
+    - conditional rendering (if)
+    - Addind SwiftUI Views using the Library
     - Image (local)
     - Image (remoto, blocking UIThread)
+        - https://e7.pngegg.com/pngimages/31/923/png-clipart-neck-pain-meme-information-others-face-head.png
+        - https://w7.pngwing.com/pngs/974/500/png-transparent-andras-arato-know-your-meme-internet-meme-youtube-meme-face-poster-head.png
     - List
         - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
         - usando array
     - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
+- Ep 4
+    - Project, targets, Unit tests Target
+    - `some` keyword
 - Ep 3
     - Networking
         - crear un hosting estático en MongoDB Realm
@@ -79,6 +93,7 @@
 - Ep maps
     - GPS
     - Pedir permisos
+- Ep SwiftUI Canvas
 - Sensores
     - Cámara y permisos
     - Acelerómetro
