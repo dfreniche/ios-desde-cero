@@ -14,11 +14,13 @@ Los episodios se emiten Martes y Jueves en horario:
 | :--------| :---------- | 
 | 12:00    | 🇲🇽 Ciudad de México  | 
 | 12:00    | 🇨🇷 San José  |  
+| 12:00    | 🇺🇸 Dallas  |  
 | 13:00    | 🇨🇴 Bogotá  | 
 | 13:00    | 🇵🇦 Ciudad de Panamá  |  
 | 13:00    | 🇨🇺 La Habana  |  
 | 13:00    | 🇵🇪 Lima  |  
 | 13:00    | 🇪🇨 Quito  |  
+| 12:00    | 🇺🇸 Nueva York  | 
 | 14:00    | 🇻🇪 Caracas  |  
 | 14:00    | 🇧🇴 La Paz  |  
 | 15:00    | 🇵🇾 Asunción  |  
