@@ -17,6 +17,4 @@ Hoy hemos visto
     - Código en Inglés
     - `let / var`
 
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Er0gSxzyzVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Episodio 000](http://img.youtube.com/vi/Er0gSxzyzVU/0.jpg)](https://www.youtube.com/embed/Er0gSxzyzVU?t=0s)

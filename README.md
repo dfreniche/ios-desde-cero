@@ -49,7 +49,7 @@ Es decir, que si algo no se entiende, se volverá a ver. Si hay interés en ver 
 
 Al día siguiente publicaré en esta lista de reproducción de Youtube el episodio correspondiente:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_HBkKAYQ7La9ToFMO3_I9LrTMwm8Rnxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![iOS Desde Cero](http://img.youtube.com/vi/Er0gSxzyzVU/0.jpg)](https://www.youtube.com/embed/videoseries?list=PL_HBkKAYQ7La9ToFMO3_I9LrTMwm8Rnxo)
 
 ## Recursos
 
