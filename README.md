@@ -45,6 +45,12 @@ Aunque tengo una idea muy general de [lo que voy a ir viendo en los distintos ep
 
 Es decir, que si algo no se entiende, se volverá a ver. Si hay interés en ver algo concreto, igual. Siempre recordando que esto es un canal para gente empezando con iOS y no es consultoría gratis. Esa la cobro aparte. Y caro. 💸
 
+## ¿Y si me pierdo el Streaming?
+
+Al día siguiente publicaré en esta lista de reproducción de Youtube el episodio correspondiente:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_HBkKAYQ7La9ToFMO3_I9LrTMwm8Rnxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Recursos
 
 - [The Swift Programming Language en Español](https://swift-book-es.vercel.app). Tradución de [Mauricio Paternina](https://twitter.com/spaceinvadev)

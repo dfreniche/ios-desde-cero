@@ -1,13 +1,13 @@
-(Este es un doc. que uso para tener un guión / idea de qué hablar en cada episodio. Puede cambiar y cambiará sobre la marcha y sin previo aviso)
+⚠️ __(Este es un doc. que uso para tener un guión / idea de qué hablar en cada episodio y no irme por las ramas. Puede cambiar y cambiará sobre la marcha y sin previo aviso)__
 
 ## Ideas para los episodios
 
-- Ep 0
+- Ep 000
     - presentación del canal
     - Qué vamos a ver y qué no
         - SwiftUI vs UIKit
         - Objective C vs Swift
-    - Este repo como punto de encuentro
+    - [Este repo](https://github.com/dfreniche/ios-desde-cero) como punto de encuentro
         - issues
         - Code of Conduct
     - instalación de herramientas: [Xcode](https://developer.apple.com/xcode/)
@@ -17,6 +17,9 @@
     - Playgrounds Swift y el mínimo Swift imprescindible
         - Código en Inglés
         - `let / var`
+- Ep 001
+    - presentación del canal / Diego (que se me olvidó)
+    - Playgrounds Swift y el mínimo Swift imprescindible
         - `class / struct`
             - structs: value types
             - fluent API para "cambiar" un Struct
@@ -37,7 +40,6 @@
             - App protocol
         - Simulador iOS: seleccionar el Sim
         - ejecución y parada del proyecto
-- Ep 1
     - [Text](https://developer.apple.com/documentation/swiftui/text)
         - Modifiers
             - `foregroundColor`
@@ -46,6 +48,7 @@
             - `font`
             - `fontWeight`
             - `shadow`
+- Ep 2
     - SwiftUI Previews
         - ⚠️ no ejecutar en Macs con procesador Core i🔥 else 🚁
         - cambiar propiedades de las previews
@@ -56,17 +59,19 @@
     - [Label](https://developer.apple.com/documentation/swiftui/label) 
         - Texto + icono!
         - [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/), app SFSymbols
+    - [Spacer](https://developer.apple.com/documentation/swiftui/spacer)
+    - Más de una View a la vez, ViewBuilders
     - [VStack](https://developer.apple.com/documentation/swiftui/vstack)
     - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
     - [Button](https://developer.apple.com/documentation/swiftui/button)
+- Ep 3
     - `@state` variables
     - 💻 programa que imprima tu nombre en un Label
     - 💻 Adivina el número que estoy pensando
-- Ep 2
     - conditional rendering (if)
     - Addind SwiftUI Views using the Library
     - Image (local)
-    - Image (remoto, blocking UIThread)
+    - Image (remoto AsyncImage)
         - https://e7.pngegg.com/pngimages/31/923/png-clipart-neck-pain-meme-information-others-face-head.png
         - https://w7.pngwing.com/pngs/974/500/png-transparent-andras-arato-know-your-meme-internet-meme-youtube-meme-face-poster-head.png
     - List
@@ -76,7 +81,6 @@
 - Ep 4
     - Project, targets, Unit tests Target
     - `some` keyword
-- Ep 3
     - Networking
         - crear un hosting estático en MongoDB Realm
             - buscar una API y copiar el JSON
