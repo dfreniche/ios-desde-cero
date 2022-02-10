@@ -90,6 +90,12 @@
         - acceder a la red para bajar una imagen
         - bajar JSON de la red
             - parseo de JSON
+- Xcode
+    - Navigators
+    - Panels
+    - Settings
+    - Debug area
+    - etc.
 - Ep Debugging sencillo
 - Ep Debugging avanzado
 - Ep code signing
