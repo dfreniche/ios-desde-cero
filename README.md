@@ -57,4 +57,4 @@ Al día siguiente publicaré en esta lista de reproducción de Youtube el episod
 
 - [The Swift Programming Language en Español](https://swift-book-es.vercel.app). Tradución de [Mauricio Paternina](https://twitter.com/spaceinvadev)
 - https://github.com/Toni77777/awesome-swiftui-libraries
-
+- [Xcode Releases](https://xcodereleases.com/)
