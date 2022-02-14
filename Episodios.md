@@ -61,6 +61,7 @@
         - múltiples dispositivos
         - `// MARK: - SwiftUI Previews` comments
     - [Color](https://developer.apple.com/documentation/swiftui/color)
+    - Assets Catalogs: uso para colores
     - Attributes Inspector `⌥ + ⌘ + 4`
     - [Label](https://developer.apple.com/documentation/swiftui/label) 
         - Texto + icono!
