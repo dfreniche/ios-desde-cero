@@ -19,6 +19,7 @@
         - `let / var`
 - Ep 001
     - presentación del canal / Diego (que se me olvidó)
+    - Cosas que recomiendo: https://twitter.com/XcodeReleases
     - Playgrounds Swift y el mínimo Swift imprescindible
         - `class / struct`
             - structs: value types
@@ -41,6 +42,12 @@
         - Simulador iOS: seleccionar el Sim
         - ejecución y parada del proyecto
     - [Text](https://developer.apple.com/documentation/swiftui/text)
+- Ep 002
+    - ℹ️ canal
+        - mil gracias por todos los follows y visualizaciones
+        - comentarios actualizados en Youtube
+        - [issues en Github](https://github.com/dfreniche/ios-desde-cero)
+    - [Text](https://developer.apple.com/documentation/swiftui/text)
         - Modifiers
             - `foregroundColor`
             - `background`
@@ -48,7 +55,6 @@
             - `font`
             - `fontWeight`
             - `shadow`
-- Ep 2
     - SwiftUI Previews
         - ⚠️ no ejecutar en Macs con procesador Core i🔥 else 🚁
         - cambiar propiedades de las previews
@@ -64,16 +70,20 @@
     - [VStack](https://developer.apple.com/documentation/swiftui/vstack)
     - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
     - [Button](https://developer.apple.com/documentation/swiftui/button)
-- Ep 3
-    - `@state` variables
+- Ep 003
+    - `@State` variables
     - 💻 programa que imprima tu nombre en un Label
     - 💻 Adivina el número que estoy pensando
     - conditional rendering (if)
+    - 💻 Cambia entre Label y Text pulsando un Botón
     - Addind SwiftUI Views using the Library
     - Image (local)
+    - Cargar varias imágenes locales consecutivas pulsando un botón
+        - `.frame(width: 320, height: 200, alignment: .center)`
     - Image (remoto AsyncImage)
         - https://e7.pngegg.com/pngimages/31/923/png-clipart-neck-pain-meme-information-others-face-head.png
         - https://w7.pngwing.com/pngs/974/500/png-transparent-andras-arato-know-your-meme-internet-meme-youtube-meme-face-poster-head.png
+    - 💻 Imprime varias imágenes cambiando con un click!
     - List
         - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
         - usando array

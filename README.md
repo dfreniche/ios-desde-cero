@@ -4,7 +4,13 @@
 
 ## ¿Qué es esto?
 
-[iOS desde Cero](https://www.twitch.tv/dfreniche) es un Streaming en 🇪🇸 sobre desarrollo iOS, que puedes seguir en directo en Twitch. O en diferido en mi [canal de Youtube](https://www.youtube.com/user/dfreniche). Es un stream, así que no esperes un curso, o un video perfectamente elaborado. Cometeré errores, me verás teclear el código, depurar programas y mirar la documentación. StackOverflow hará más de una aparición estelar. Es real como la vida misma.
+[iOS desde Cero](https://www.twitch.tv/dfreniche) es un Streaming en 🇪🇸 sobre desarrollo iOS, que puedes seguir en directo en [Twitch](https://www.twitch.tv/dfreniche). O en diferido en mi [canal de Youtube](https://www.youtube.com/user/dfreniche). 
+
+Es un stream, así que no esperes un curso, o un video perfectamente elaborado. Cometeré errores, me verás teclear el código, depurar programas y mirar la documentación. StackOverflow hará más de una aparición estelar. Es real como la vida misma.
+
+Te espero en:
+- 💻 [Twitch](https://www.twitch.tv/dfreniche)
+- 📺 [Youtube](https://www.youtube.com/playlist?list=PL_HBkKAYQ7La9ToFMO3_I9LrTMwm8Rnxo)
 
 ## ¿Cuándo lo perpetras?
 
@@ -13,14 +19,14 @@ Los episodios se emiten Martes y Jueves en horario:
 |          | Martes y Jueves |
 | :--------| :---------- | 
 | 12:00    | 🇲🇽 Ciudad de México  | 
-| 12:00    | 🇨🇷 San José  |  
 | 12:00    | 🇺🇸 Dallas  |  
+| 12:00    | 🇺🇸 Nueva York  | 
+| 12:00    | 🇨🇷 San José  |  
 | 13:00    | 🇨🇴 Bogotá  | 
 | 13:00    | 🇵🇦 Ciudad de Panamá  |  
 | 13:00    | 🇨🇺 La Habana  |  
 | 13:00    | 🇵🇪 Lima  |  
 | 13:00    | 🇪🇨 Quito  |  
-| 12:00    | 🇺🇸 Nueva York  | 
 | 14:00    | 🇻🇪 Caracas  |  
 | 14:00    | 🇧🇴 La Paz  |  
 | 15:00    | 🇵🇾 Asunción  |  
