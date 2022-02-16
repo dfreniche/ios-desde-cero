@@ -46,7 +46,8 @@
     - ℹ️ canal
         - mil gracias por todos los follows y visualizaciones
         - comentarios actualizados en Youtube
-        - [issues en Github](https://github.com/dfreniche/ios-desde-cero)
+        - respondo a las [issues en Github](https://github.com/dfreniche/ios-desde-cero)
+            - shoutout Aitor Uranga for https://twitimer.com/ 
     - [Text](https://developer.apple.com/documentation/swiftui/text)
         - Modifiers
             - `foregroundColor`
@@ -55,13 +56,8 @@
             - `font`
             - `fontWeight`
             - `shadow`
-    - SwiftUI Previews
-        - ⚠️ no ejecutar en Macs con procesador Core i🔥 else 🚁
-        - cambiar propiedades de las previews
-        - múltiples dispositivos
-        - `// MARK: - SwiftUI Previews` comments
+            - `cornerRadius`
     - [Color](https://developer.apple.com/documentation/swiftui/color)
-    - Assets Catalogs: uso para colores
     - Attributes Inspector `⌥ + ⌘ + 4`
     - [Label](https://developer.apple.com/documentation/swiftui/label) 
         - Texto + icono!
@@ -69,27 +65,40 @@
     - [Spacer](https://developer.apple.com/documentation/swiftui/spacer)
     - Más de una View a la vez, ViewBuilders
     - [VStack](https://developer.apple.com/documentation/swiftui/vstack)
-    - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
-    - [Button](https://developer.apple.com/documentation/swiftui/button)
+    - [ScrollView](https://developer.apple.com/documentation/swiftui/scrollview)
+    - [Image](https://developer.apple.com/documentation/swiftui/image) (local)
+    - 💻 Pantalla de Acerca de
+
 - Ep 003
+    - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
+    - [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
+    - [Button](https://developer.apple.com/documentation/swiftui/button)
+    - Assets Catalogs: uso para colores
+    - SwiftUI Previews
+        - ⚠️ no ejecutar en Macs con procesador Core i🔥 else 🚁
+        - cambiar propiedades de las previews
+        - múltiples dispositivos
+        - `// MARK: - SwiftUI Previews` comments
     - `@State` variables
     - 💻 programa que imprima tu nombre en un Label
     - 💻 Adivina el número que estoy pensando
     - conditional rendering (if)
     - 💻 Cambia entre Label y Text pulsando un Botón
-    - Addind SwiftUI Views using the Library
-    - Image (local)
+    - Añadir SwiftUI Views usando Library
     - Cargar varias imágenes locales consecutivas pulsando un botón
         - `.frame(width: 320, height: 200, alignment: .center)`
     - Image (remoto AsyncImage)
         - https://e7.pngegg.com/pngimages/31/923/png-clipart-neck-pain-meme-information-others-face-head.png
         - https://w7.pngwing.com/pngs/974/500/png-transparent-andras-arato-know-your-meme-internet-meme-youtube-meme-face-poster-head.png
     - 💻 Imprime varias imágenes cambiando con un click!
+    - Stepper
+    - Separator
     - List
         - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
         - usando array
     - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
 - Ep 4
+    - NavigationView
     - Project, targets, Unit tests Target
     - `some` keyword
     - Networking
