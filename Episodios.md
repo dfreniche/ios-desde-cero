@@ -70,34 +70,37 @@
     - 💻 Pantalla de Acerca de
 
 - Ep 003
-    - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
-    - [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
+    - ℹ️ canal
     - [Button](https://developer.apple.com/documentation/swiftui/button)
-    - Assets Catalogs: uso para colores
+        - `.border(Color.red, width: 5)`
+    - [TextField](https://developer.apple.com/documentation/swiftui/textfield)
+    - conditional rendering (if)
+    - `@State` variables
     - SwiftUI Previews
         - ⚠️ no ejecutar en Macs con procesador Core i🔥 else 🚁
         - cambiar propiedades de las previews
         - múltiples dispositivos
         - `// MARK: - SwiftUI Previews` comments
-    - `@State` variables
-    - 💻 programa que imprima tu nombre en un Label
     - 💻 Adivina el número que estoy pensando
-    - conditional rendering (if)
-    - 💻 Cambia entre Label y Text pulsando un Botón
-    - Añadir SwiftUI Views usando Library
-    - Cargar varias imágenes locales consecutivas pulsando un botón
+- Ep 4
+    - 💻 Cargar varias imágenes locales consecutivas pulsando un botón
         - `.frame(width: 320, height: 200, alignment: .center)`
-    - Image (remoto AsyncImage)
+    - Assets Catalogs: uso para colores
+    - 💻 Cambia entre Text e Image pulsando un Botón
+    - 💻 programa que imprima tu nombre en un Label
+    - AsyncImage
         - https://e7.pngegg.com/pngimages/31/923/png-clipart-neck-pain-meme-information-others-face-head.png
         - https://w7.pngwing.com/pngs/974/500/png-transparent-andras-arato-know-your-meme-internet-meme-youtube-meme-face-poster-head.png
     - 💻 Imprime varias imágenes cambiando con un click!
+    - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
+    - Añadir SwiftUI Views usando Library
+    - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
+    - [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
     - Stepper
     - Separator
     - List
         - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
         - usando array
-    - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
-- Ep 4
     - NavigationView
     - Project, targets, Unit tests Target
     - `some` keyword
@@ -110,6 +113,10 @@
         - acceder a la red para bajar una imagen
         - bajar JSON de la red
             - parseo de JSON
+- Controles
+    - Toggle
+    - Picker
+    - Form
 - Xcode
     - Navigators
     - Panels

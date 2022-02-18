@@ -11,7 +11,9 @@ import SwiftUI
 struct AboutMeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            AboutView(name: "Diego Freniche", aboutMeText: "Something")
+            
+            GuessNumberView()
         }
     }
 }
