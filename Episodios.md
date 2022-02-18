@@ -72,7 +72,6 @@
 - Ep 003
     - ℹ️ canal
     - [Button](https://developer.apple.com/documentation/swiftui/button)
-        - `.border(Color.red, width: 5)`
     - [TextField](https://developer.apple.com/documentation/swiftui/textfield)
     - conditional rendering (if)
     - `@State` variables
@@ -83,14 +82,14 @@
         - `// MARK: - SwiftUI Previews` comments
     - 💻 Adivina el número que estoy pensando
 - Ep 4
+    - AsyncImage
+        https://pokeapi.co/ 
+    - `.border(Color.red, width: 5)`
     - 💻 Cargar varias imágenes locales consecutivas pulsando un botón
         - `.frame(width: 320, height: 200, alignment: .center)`
     - Assets Catalogs: uso para colores
     - 💻 Cambia entre Text e Image pulsando un Botón
     - 💻 programa que imprima tu nombre en un Label
-    - AsyncImage
-        - https://e7.pngegg.com/pngimages/31/923/png-clipart-neck-pain-meme-information-others-face-head.png
-        - https://w7.pngwing.com/pngs/974/500/png-transparent-andras-arato-know-your-meme-internet-meme-youtube-meme-face-poster-head.png
     - 💻 Imprime varias imágenes cambiando con un click!
     - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
     - Añadir SwiftUI Views usando Library
