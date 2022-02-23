@@ -68,7 +68,6 @@
     - [ScrollView](https://developer.apple.com/documentation/swiftui/scrollview)
     - [Image](https://developer.apple.com/documentation/swiftui/image) (local)
     - 💻 Pantalla de Acerca de
-
 - Ep 003
     - ℹ️ canal
     - [Button](https://developer.apple.com/documentation/swiftui/button)
@@ -82,26 +81,53 @@
         - `// MARK: - SwiftUI Previews` comments
     - 💻 Adivina el número que estoy pensando
 - Ep 4
+    - ℹ️ canal
+    - Añadir SwiftUI Views usando Library
     - AsyncImage
         https://pokeapi.co/ 
     - `.border(Color.red, width: 5)`
-    - 💻 Cargar varias imágenes locales consecutivas pulsando un botón
+    - Crear vistas personalizadas
+    - 💻 Cargar imágenes a izquierda y derecha pulsando un botón
+        - usando un array de URLs (strings)
         - `.frame(width: 320, height: 200, alignment: .center)`
+        - cambiar background color de la vista
     - Assets Catalogs: uso para colores
-    - 💻 Cambia entre Text e Image pulsando un Botón
-    - 💻 programa que imprima tu nombre en un Label
-    - 💻 Imprime varias imágenes cambiando con un click!
-    - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
-    - Añadir SwiftUI Views usando Library
     - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
-    - [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
-    - Stepper
-    - Separator
+- Ep 5
+    - 💻 Improve Pokepedia Screen
+        - Imagen con tamaño adecuado
+        - full screen
+        - extraer modelo
+    - Clausuras en Swift: toma segunda
+        - argumentos en clausuras
+        - `$0`, etc.
+        - trailing closures
+    - 💻 programa que imprima tu nombre en un Label
     - List
         - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
         - usando array
+---
+
+- Backlog
+    - Bindings, $ wrapper
+        - La diferencia es que el tipo que espera el TexField es Binding<String>, para poder cambiarlo desde dentro del TextField. Si no pones el $ el error que tienes es:
+            Cannot convert value 'number' of type 'String' to expected type 'Binding<String>', use wrapper instead
+
+        Es decir, el $ es una manera “rápida”de crear un Binding<String>
+        Si no usas el $, tienes que escribir esto:
+        ```swift
+        TextField("Your guess", text:  Binding<String>(get: {
+                return self.number
+            },
+                set: { newValue in
+                self.number = newValue
+            }))
+        ```
+
+
+    - [TabView](https://developer.apple.com/documentation/swiftui/tabview)
     - NavigationView
-    - Project, targets, Unit tests Target
+    - 🛠 Xcode: Project, targets, Unit tests Target
     - `some` keyword
     - Networking
         - crear un hosting estático en MongoDB Realm
@@ -113,6 +139,10 @@
         - bajar JSON de la red
             - parseo de JSON
 - Controles
+    - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
+    - Stepper
+    - Separator
+    - [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
     - Toggle
     - Picker
     - Form
@@ -134,12 +164,18 @@
     - Cámara y permisos
     - Acelerómetro
     - 💻 App estaciones del año
-- UIKit 
-    - UIKit Dynamics
-    - SpriteKit particle generator
 - Ep XX
     - Testing
     - Unit Testing con XCFramework
+- Ep XX
+    - Simulador, dónde se almacenan nuestros programas
+    - Inspeccionando nuestro programa
+        - binario
+        - bundle
+        - recursos
+- UIKit 
+    - UIKit Dynamics
+    - SpriteKit particle generator
 - Ep XX
     - DocC
 - Ep XX
