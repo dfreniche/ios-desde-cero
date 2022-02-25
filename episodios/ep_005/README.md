@@ -1,18 +1,17 @@
-# Episodio 004
+# Episodio 005
 
-Emitido en Twitch el 22/02/2022 
+Emitido en Twitch el 24/02/2022 
 
 Hoy hemos visto:
- - Añadir SwiftUI Views usando Library
-    - AsyncImage
-        https://pokeapi.co/ 
-    - `.border(Color.red, width: 5)`
-    - Crear vistas personalizadas
-    - 💻 Cargar imágenes a izquierda y derecha pulsando un botón
-        - usando un array de URLs (strings)
-        - `.frame(width: 320, height: 200, alignment: .center)`
-        - cambiar background color de la vista
-    - Assets Catalogs: uso para colores
-    - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
+- Clausuras en Swift: toma segunda
+    - argumentos en clausuras
+    - `$0`, etc.
+    - trailing closures
+- 💻 Mejorar Pokepedia Screen
+    - full screen
+    - Mejorar botón
+    - Imagen con tamaño adecuado
+    - añadir placeholder
+    - extraer modelo
 
-[![Episodio 004](http://img.youtube.com/vi/gfhca8nP4vU/0.jpg)](https://www.youtube.com/embed/gfhca8nP4vU?t=0s)
+[![Episodio 005](http://img.youtube.com/vi/ClaDnw-pkRM/0.jpg)](https://www.youtube.com/embed/ClaDnw-pkRM?t=0s)
