@@ -55,9 +55,13 @@ Es decir, que si algo no se entiende, se volverá a ver. Si hay interés en ver 
 
 ## ¿Y si me pierdo el Streaming?
 
-Al día siguiente publicaré en esta lista de reproducción de Youtube el episodio correspondiente:
+Al día siguiente publicaré en esta [lista de reproducción de Youtube](https://www.youtube.com/embed/videoseries?list=PL_HBkKAYQ7La9ToFMO3_I9LrTMwm8Rnxo) el episodio correspondiente:
 
 [![iOS Desde Cero](http://img.youtube.com/vi/Er0gSxzyzVU/0.jpg)](https://www.youtube.com/embed/videoseries?list=PL_HBkKAYQ7La9ToFMO3_I9LrTMwm8Rnxo)
+
+## Episodios
+
+En la carpeta [Episodios](./episodios/) tienes el código usado en cada stream, junto con una pequeña descripción de lo que hemos visto y un enlace al vídeo correspondiente.
 
 ## Recursos
 
