@@ -93,22 +93,31 @@
         - cambiar background color de la vista
     - Assets Catalogs: uso para colores
     - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
+    - Separator
 - Ep 5
-    - 💻 Improve Pokepedia Screen
-        - Imagen con tamaño adecuado
-        - full screen
-        - extraer modelo
     - Clausuras en Swift: toma segunda
         - argumentos en clausuras
         - `$0`, etc.
         - trailing closures
-    - 💻 programa que imprima tu nombre en un Label
+    - 💻 Mejorar Pokepedia Screen
+        - full screen
+        - Mejorar botón
+        - Imagen con tamaño adecuado
+        - añadir placeholder
+        - extraer modelo
+- Ep 6
+    - Separar vista que itera por los Pokemons de la que muestra un Pokemon
+    - Separar datos de Pokemons en un método mocked
     - List
         - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
-        - usando array
+        - usando un array de Pokemons
+    - NavigationView
 ---
 
 - Backlog
+    - VStack `alignment` y `spacing`
+    - .buttonStyle(.borderedProminent)
+    - 💻 programa que imprima tu nombre en un Label
     - Bindings, $ wrapper
         - La diferencia es que el tipo que espera el TexField es Binding<String>, para poder cambiarlo desde dentro del TextField. Si no pones el $ el error que tienes es:
             Cannot convert value 'number' of type 'String' to expected type 'Binding<String>', use wrapper instead
@@ -123,10 +132,7 @@
                 self.number = newValue
             }))
         ```
-
-
     - [TabView](https://developer.apple.com/documentation/swiftui/tabview)
-    - NavigationView
     - 🛠 Xcode: Project, targets, Unit tests Target
     - `some` keyword
     - Networking
@@ -141,7 +147,6 @@
 - Controles
     - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
     - Stepper
-    - Separator
     - [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
     - Toggle
     - Picker
