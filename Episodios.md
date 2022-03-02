@@ -108,13 +108,14 @@
 - Ep 6
     - Separar vista que itera por los Pokemons de la que muestra un Pokemon
     - Separar datos de Pokemons en un método mocked
+    - HStack horizontal + ScrollView
     - List
         - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
         - usando un array de Pokemons
-    - NavigationView
 ---
 
 - Backlog
+    - NavigationView
     - VStack `alignment` y `spacing`
     - .buttonStyle(.borderedProminent)
     - 💻 programa que imprima tu nombre en un Label
