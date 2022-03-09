@@ -80,7 +80,7 @@
         - múltiples dispositivos
         - `// MARK: - SwiftUI Previews` comments
     - 💻 Adivina el número que estoy pensando
-- Ep 4
+- Ep 004
     - ℹ️ canal
     - Añadir SwiftUI Views usando Library
     - AsyncImage
@@ -94,7 +94,7 @@
     - Assets Catalogs: uso para colores
     - [HStack](https://developer.apple.com/documentation/swiftui/hstack)
     - Separator
-- Ep 5
+- Ep 005
     - Clausuras en Swift: toma segunda
         - argumentos en clausuras
         - `$0`, etc.
@@ -105,17 +105,26 @@
         - Imagen con tamaño adecuado
         - añadir placeholder
         - extraer modelo
-- Ep 6
+- Ep 006
     - Separar vista que itera por los Pokemons de la que muestra un Pokemon
     - Separar datos de Pokemons en un método mocked
     - HStack horizontal + ScrollView
+    - [TabView](https://developer.apple.com/documentation/swiftui/tabview)
     - List
         - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
         - usando un array de Pokemons
+- Ep 007
+    - Separar vista detalle Pokemons
+    - Añadir `PokemonDetailView` vacía
+    - Añadir NavigationView
+    - Añadir `navigationTitle`a List
+    - Añadir NavigationLink
 ---
 
 - Backlog
-    - NavigationView
+    - `navigationBarItems`
+    - 🛠 Xcode: Settings, Project, targets, Unit tests Target
+    - `NavigationLink` navegando programaticamente
     - VStack `alignment` y `spacing`
     - .buttonStyle(.borderedProminent)
     - 💻 programa que imprima tu nombre en un Label
@@ -133,18 +142,22 @@
                 self.number = newValue
             }))
         ```
-    - [TabView](https://developer.apple.com/documentation/swiftui/tabview)
-    - 🛠 Xcode: Project, targets, Unit tests Target
     - `some` keyword
     - Networking
+        - depurar JSON
+            - cURL + pbcopy + editor
+            - cURL + pretty print
+            - Paw
+            - 
         - crear un hosting estático en MongoDB Realm
             - buscar una API y copiar el JSON
             - hospedarlo de manera estática
             - Ej: https://dog.ceo/api/breeds/list/all
             - Ej: https://application-0-xbjwv.mongodbstitch.com/example.json
-        - acceder a la red para bajar una imagen
         - bajar JSON de la red
             - parseo de JSON
+    - Networking 2
+        - acceder a la red para bajar una imagen
 - Controles
     - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
     - Stepper

@@ -10,4 +10,4 @@ Hoy hemos visto:
     - [forEach](https://developer.apple.com/documentation/swiftui/foreach)
     - usando un array de Pokemons
 
-[![Episodio 006](http://img.youtube.com/vi/B4Dl1NZW8NY/0.jpg)](https://youtu.be/B4Dl1NZW8NY)ongodb
+[![Episodio 006](http://img.youtube.com/vi/B4Dl1NZW8NY/0.jpg)](https://youtu.be/B4Dl1NZW8NY)
