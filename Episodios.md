@@ -119,6 +119,22 @@
     - Añadir NavigationView
     - Añadir `navigationTitle`a List
     - Añadir NavigationLink
+- Ep 008
+    - JSON Decoding
+        - copiar JSON en Swift
+        - Decodable protocol
+        - keys
+        - debug problemas con JSON Decoding
+    - cambiar signatura función para usar clausuras
+- Ep 009
+    - Networking
+        - depurar JSON
+            - Paw, generar código con Paw
+            - cURL + pbcopy + editor
+            - cURL + pretty print
+        - función para bajar un Pokemon
+        - @escaping
+
 ---
 
 - Backlog
@@ -143,21 +159,13 @@
             }))
         ```
     - `some` keyword
-    - Networking
-        - depurar JSON
-            - cURL + pbcopy + editor
-            - cURL + pretty print
-            - Paw
-            - 
-        - crear un hosting estático en MongoDB Realm
-            - buscar una API y copiar el JSON
-            - hospedarlo de manera estática
-            - Ej: https://dog.ceo/api/breeds/list/all
-            - Ej: https://application-0-xbjwv.mongodbstitch.com/example.json
-        - bajar JSON de la red
-            - parseo de JSON
     - Networking 2
         - acceder a la red para bajar una imagen
+    - crear un hosting estático en MongoDB Realm
+        - buscar una API y copiar el JSON
+        - hospedarlo de manera estática
+        - Ej: https://dog.ceo/api/breeds/list/all
+        - Ej: https://application-0-xbjwv.mongodbstitch.com/example.json
 - Controles
     - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
     - Stepper
