@@ -127,14 +127,25 @@
         - debug problemas con JSON Decoding
     - cambiar signatura función para usar clausuras
 - Ep 009
+    - finalizar propiedad URL mostrando la Imagen del Pokemon
     - Networking
         - depurar JSON
             - Paw, generar código con Paw
             - cURL + pbcopy + editor
             - cURL + pretty print
-        - función para bajar un Pokemon
+        - función para bajar los datos JSON de un Pokemon
+        - bucle para bajar unos cuantos
+        - multihilo y depuración
         - @escaping
-
+- Ep 010
+    - acabar colores con un enum
+    - volver al hilo principal
+    - cargar lista pokemons al principio
+    - Unit Testing I
+        - crear target de testing
+        - escribir test para parse
+    - mapas
+        - añadir vista mapa
 ---
 
 - Backlog
