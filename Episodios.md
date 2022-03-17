@@ -144,6 +144,8 @@
     - Unit Testing I
         - crear target de testing
         - escribir test para parse
+        - mover fichero JSON a target pruebas
+        - añadir #if debug
     - mapas
         - añadir vista mapa
 ---
