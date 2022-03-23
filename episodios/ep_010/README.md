@@ -7,4 +7,4 @@ Hoy hemos visto:
 - volver al hilo principal
 - cargar lista pokemons al principio
 
-[![Episodio 009](http://img.youtube.com/vi/MvsdU_MOaYE/0.jpg)](https://youtu.be/MvsdU_MOaYE)
+[![Episodio 010](http://img.youtube.com/vi/MvsdU_MOaYE/0.jpg)](https://youtu.be/MvsdU_MOaYE)

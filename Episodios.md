@@ -141,11 +141,17 @@
     - acabar colores con un enum
     - volver al hilo principal
     - cargar lista pokemons al principio
+- Ep 011
+    - separar vista carga
     - Unit Testing I
         - crear target de testing
         - escribir test para parse
-        - mover fichero JSON a target pruebas
-        - añadir #if debug
+        - Unit Testing con XCFramework
+- Ep 012
+    - añadir nuevos tests (JSON parsing)
+    - mover fichero JSON a target pruebas
+    - añadir #if debug
+    - usar nuestra nueva Page
     - mapas
         - añadir vista mapa
 ---
@@ -192,7 +198,6 @@
     - Settings
     - Debug area
     - etc.
-- Ep Debugging sencillo
 - Ep Debugging avanzado
 - Ep code signing
     - bit
@@ -206,7 +211,6 @@
     - 💻 App estaciones del año
 - Ep XX
     - Testing
-    - Unit Testing con XCFramework
 - Ep XX
     - Simulador, dónde se almacenan nuestros programas
     - Inspeccionando nuestro programa
