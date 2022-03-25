@@ -151,9 +151,16 @@
     - añadir nuevos tests (JSON parsing)
     - mover fichero JSON a target pruebas
     - añadir #if debug
-    - usar nuestra nueva Page
+    - varios targets de tests
+    - tests lentos
+    - Schemas y targets: relación
+    - Test doubles: mocks, stubs
+    - usar nuestra nueva Page en API
+- Ep 013
     - mapas
         - añadir vista mapa
+        - inyectar pokemons
+        - 
 ---
 
 - Backlog
