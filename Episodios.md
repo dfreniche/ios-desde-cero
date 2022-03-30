@@ -150,17 +150,21 @@
 - Ep 012
     - añadir nuevos tests (JSON parsing)
     - mover fichero JSON a target pruebas
-    - añadir #if debug
     - varios targets de tests
     - tests lentos
     - Schemas y targets: relación
-    - Test doubles: mocks, stubs
-    - usar nuestra nueva Page en API
 - Ep 013
     - mapas
         - añadir vista mapa
-        - inyectar pokemons
-        - 
+        - inyectar pokemons en mapa
+        - añadir anotaciones al mapa
+        - mostrar/ocultar una vista sobre el mapa
+        - efectos: blur y animación
+- Ep 014 
+    - Test doubles: mocks, stubs
+    - añadir #if debug
+    - usar nuestra nueva Page en API
+    - Testing API
 ---
 
 - Backlog
@@ -206,8 +210,12 @@
     - Debug area
     - etc.
 - Ep Debugging avanzado
+    - Crear puntos de ruptura
+    - Activar, continuar, parar
+    - Puntos de ruptura que no paran
+    - Añadir acciones a los puntos de ruptura
 - Ep code signing
-    - bit
+    - bitcode
 - Ep maps
     - GPS
     - Pedir permisos
@@ -230,8 +238,10 @@
 - Ep XX
     - DocC
 - Ep XX
-    - Compilando desde la línea de comandos
+    - Compilando desde la línea de comandos: xcodebuild y swift
     - Github Actions
+        - crear nuestra GH Action que compile un proyecto
+        - ejecutar test de unidad en una GH Action
 - Ep XX
     - Incorporando librerías de terceros: SPM
     - 
