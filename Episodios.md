@@ -162,10 +162,10 @@
         - efectos: blur y animación
 - Ep 014 
     - Test doubles: mocks, stubs
-    - añadir #if debug
-    - usar nuestra nueva Page en API
     - Testing API
 ---
+- añadir #if debug
+- usar nuestra nueva Page en API
 
 - Backlog
     - `navigationBarItems`
