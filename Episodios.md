@@ -163,6 +163,16 @@
 - Ep 014 
     - Test doubles: mocks, stubs
     - Testing API
+- Ep 015
+    - Final touches to the App
+- Ep 016
+    - Sample Animations App: create the App (iOS, Mac Catalyst)
+    - Add a simple TabView
+    - Create RotatingBackgroundView
+    - BouncingImage with `repeatForever` animation
+- Ep 017
+    - SpriteKit particle generator
+
 ---
 - añadir #if debug
 - usar nuestra nueva Page en API
@@ -199,7 +209,6 @@
 - Controles
     - [TextEditor](https://developer.apple.com/documentation/swiftui/texteditor)
     - Stepper
-    - [ZStack](https://developer.apple.com/documentation/swiftui/zstack)
     - Toggle
     - Picker
     - Form
@@ -234,7 +243,6 @@
         - recursos
 - UIKit 
     - UIKit Dynamics
-    - SpriteKit particle generator
 - Ep XX
     - DocC
 - Ep XX
