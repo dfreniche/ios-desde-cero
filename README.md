@@ -63,6 +63,15 @@ Al día siguiente publicaré en esta [lista de reproducción de Youtube](https:/
 
 En la carpeta [Episodios](./episodios/) tienes el código usado en cada stream, junto con una pequeña descripción de lo que hemos visto y un enlace al vídeo correspondiente.
 
+## Ejemplos desarrollados
+
+|   App     |  iOS    |  macOS  |
+| :------------- | :----------: | :----------: | 
+|  [Adivina El Número](/episodios/ep_002/AboutMe/): App iOS con un About Me y un pequeño juego de adivina el número correcto | ![](img/AboutMe.png)   | |
+|  [Pokepedia](/episodios/ep_015/Pokepedia/): App iOS/macOS que usando http://pokeapi.com muestra Pokemons en listas, mapas, de uno en uno, etc. | ![](img/PokepediaiOS.png)  | ![](img/PokepediaMac.png) | 
+|  [Animations](/episodios/ep_019/Animations/): App iOS/macOS con distintos ejemplos de animaciones. | ![](img/) |   |
+
+
 ## Recursos
 
 - [The Swift Programming Language en Español](https://swift-book-es.vercel.app). Tradución de [Mauricio Paternina](https://twitter.com/spaceinvadev)
