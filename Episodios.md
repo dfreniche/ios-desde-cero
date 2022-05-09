@@ -172,7 +172,13 @@
     - BouncingImage with `repeatForever` animation
 - Ep 017
     - SpriteKit particle generator
-
+- Ep 018
+    - Cómo definir la mínima versión soportada por nuestra App, cambiando el iOS Deployment Target.
+    - Animación 3D
+    - Efectos de partículas con SpriteKit
+- Ep 019
+- Ep 020
+- Ep 021
 ---
 - añadir #if debug
 - usar nuestra nueva Page en API

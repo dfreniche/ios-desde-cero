@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99AAE6F328243B690025DCA4 /* PixelatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE6F228243B690025DCA4 /* PixelatorApp.swift */; };
+		99AAE6F528243B690025DCA4 /* PixelDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE6F428243B690025DCA4 /* PixelDrawingView.swift */; };
+		99AAE6F728243B6C0025DCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99AAE6F628243B6C0025DCA4 /* Assets.xcassets */; };
+		99AAE6FA28243B6C0025DCA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99AAE6F928243B6C0025DCA4 /* Preview Assets.xcassets */; };
+		99AAE70428243B6C0025DCA4 /* PixelatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE70328243B6C0025DCA4 /* PixelatorTests.swift */; };
+		99AAE70E28243B6C0025DCA4 /* PixelatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE70D28243B6C0025DCA4 /* PixelatorUITests.swift */; };
+		99AAE71028243B6C0025DCA4 /* PixelatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE70F28243B6C0025DCA4 /* PixelatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99AAE70028243B6C0025DCA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99AAE6E728243B690025DCA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AAE6EE28243B690025DCA4;
+			remoteInfo = Pixelator;
+		};
+		99AAE70A28243B6C0025DCA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99AAE6E728243B690025DCA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AAE6EE28243B690025DCA4;
+			remoteInfo = Pixelator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99AAE6EF28243B690025DCA4 /* Pixelator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixelator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AAE6F228243B690025DCA4 /* PixelatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelatorApp.swift; sourceTree = "<group>"; };
+		99AAE6F428243B690025DCA4 /* PixelDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelDrawingView.swift; sourceTree = "<group>"; };
+		99AAE6F628243B6C0025DCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99AAE6F928243B6C0025DCA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99AAE6FF28243B6C0025DCA4 /* PixelatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AAE70328243B6C0025DCA4 /* PixelatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelatorTests.swift; sourceTree = "<group>"; };
+		99AAE70928243B6C0025DCA4 /* PixelatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixelatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AAE70D28243B6C0025DCA4 /* PixelatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelatorUITests.swift; sourceTree = "<group>"; };
+		99AAE70F28243B6C0025DCA4 /* PixelatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99AAE71C28243CD40025DCA4 /* Pixelator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pixelator.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99AAE6EC28243B690025DCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AAE6FC28243B6C0025DCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AAE70628243B6C0025DCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99AAE6E628243B690025DCA4 = {
+			isa = PBXGroup;
+			children = (
+				99AAE6F128243B690025DCA4 /* Pixelator */,
+				99AAE70228243B6C0025DCA4 /* PixelatorTests */,
+				99AAE70C28243B6C0025DCA4 /* PixelatorUITests */,
+				99AAE6F028243B690025DCA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99AAE6F028243B690025DCA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99AAE6EF28243B690025DCA4 /* Pixelator.app */,
+				99AAE6FF28243B6C0025DCA4 /* PixelatorTests.xctest */,
+				99AAE70928243B6C0025DCA4 /* PixelatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99AAE6F128243B690025DCA4 /* Pixelator */ = {
+			isa = PBXGroup;
+			children = (
+				99AAE71C28243CD40025DCA4 /* Pixelator.entitlements */,
+				99AAE6F228243B690025DCA4 /* PixelatorApp.swift */,
+				99AAE6F428243B690025DCA4 /* PixelDrawingView.swift */,
+				99AAE6F628243B6C0025DCA4 /* Assets.xcassets */,
+				99AAE6F828243B6C0025DCA4 /* Preview Content */,
+			);
+			path = Pixelator;
+			sourceTree = "<group>";
+		};
+		99AAE6F828243B6C0025DCA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99AAE6F928243B6C0025DCA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99AAE70228243B6C0025DCA4 /* PixelatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				99AAE70328243B6C0025DCA4 /* PixelatorTests.swift */,
+			);
+			path = PixelatorTests;
+			sourceTree = "<group>";
+		};
+		99AAE70C28243B6C0025DCA4 /* PixelatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99AAE70D28243B6C0025DCA4 /* PixelatorUITests.swift */,
+				99AAE70F28243B6C0025DCA4 /* PixelatorUITestsLaunchTests.swift */,
+			);
+			path = PixelatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99AAE6EE28243B690025DCA4 /* Pixelator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AAE71328243B6C0025DCA4 /* Build configuration list for PBXNativeTarget "Pixelator" */;
+			buildPhases = (
+				99AAE6EB28243B690025DCA4 /* Sources */,
+				99AAE6EC28243B690025DCA4 /* Frameworks */,
+				99AAE6ED28243B690025DCA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pixelator;
+			productName = Pixelator;
+			productReference = 99AAE6EF28243B690025DCA4 /* Pixelator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99AAE6FE28243B6C0025DCA4 /* PixelatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AAE71628243B6C0025DCA4 /* Build configuration list for PBXNativeTarget "PixelatorTests" */;
+			buildPhases = (
+				99AAE6FB28243B6C0025DCA4 /* Sources */,
+				99AAE6FC28243B6C0025DCA4 /* Frameworks */,
+				99AAE6FD28243B6C0025DCA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99AAE70128243B6C0025DCA4 /* PBXTargetDependency */,
+			);
+			name = PixelatorTests;
+			productName = PixelatorTests;
+			productReference = 99AAE6FF28243B6C0025DCA4 /* PixelatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99AAE70828243B6C0025DCA4 /* PixelatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AAE71928243B6C0025DCA4 /* Build configuration list for PBXNativeTarget "PixelatorUITests" */;
+			buildPhases = (
+				99AAE70528243B6C0025DCA4 /* Sources */,
+				99AAE70628243B6C0025DCA4 /* Frameworks */,
+				99AAE70728243B6C0025DCA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99AAE70B28243B6C0025DCA4 /* PBXTargetDependency */,
+			);
+			name = PixelatorUITests;
+			productName = PixelatorUITests;
+			productReference = 99AAE70928243B6C0025DCA4 /* PixelatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99AAE6E728243B690025DCA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					99AAE6EE28243B690025DCA4 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					99AAE6FE28243B6C0025DCA4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 99AAE6EE28243B690025DCA4;
+					};
+					99AAE70828243B6C0025DCA4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 99AAE6EE28243B690025DCA4;
+					};
+				};
+			};
+			buildConfigurationList = 99AAE6EA28243B690025DCA4 /* Build configuration list for PBXProject "Pixelator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99AAE6E628243B690025DCA4;
+			productRefGroup = 99AAE6F028243B690025DCA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99AAE6EE28243B690025DCA4 /* Pixelator */,
+				99AAE6FE28243B6C0025DCA4 /* PixelatorTests */,
+				99AAE70828243B6C0025DCA4 /* PixelatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99AAE6ED28243B690025DCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AAE6FA28243B6C0025DCA4 /* Preview Assets.xcassets in Resources */,
+				99AAE6F728243B6C0025DCA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AAE6FD28243B6C0025DCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AAE70728243B6C0025DCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99AAE6EB28243B690025DCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AAE6F528243B690025DCA4 /* PixelDrawingView.swift in Sources */,
+				99AAE6F328243B690025DCA4 /* PixelatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AAE6FB28243B6C0025DCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AAE70428243B6C0025DCA4 /* PixelatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99AAE70528243B6C0025DCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AAE70E28243B6C0025DCA4 /* PixelatorUITests.swift in Sources */,
+				99AAE71028243B6C0025DCA4 /* PixelatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99AAE70128243B6C0025DCA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99AAE6EE28243B690025DCA4 /* Pixelator */;
+			targetProxy = 99AAE70028243B6C0025DCA4 /* PBXContainerItemProxy */;
+		};
+		99AAE70B28243B6C0025DCA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99AAE6EE28243B690025DCA4 /* Pixelator */;
+			targetProxy = 99AAE70A28243B6C0025DCA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99AAE71128243B6C0025DCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99AAE71228243B6C0025DCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99AAE71428243B6C0025DCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pixelator/Pixelator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixelator/Preview Content\"";
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfreniche.Pixelator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99AAE71528243B6C0025DCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pixelator/Pixelator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixelator/Preview Content\"";
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfreniche.Pixelator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99AAE71728243B6C0025DCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfreniche.PixelatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixelator.app/Pixelator";
+			};
+			name = Debug;
+		};
+		99AAE71828243B6C0025DCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfreniche.PixelatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixelator.app/Pixelator";
+			};
+			name = Release;
+		};
+		99AAE71A28243B6C0025DCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfreniche.PixelatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixelator;
+			};
+			name = Debug;
+		};
+		99AAE71B28243B6C0025DCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGTGP4V6AC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfreniche.PixelatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixelator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99AAE6EA28243B690025DCA4 /* Build configuration list for PBXProject "Pixelator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AAE71128243B6C0025DCA4 /* Debug */,
+				99AAE71228243B6C0025DCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99AAE71328243B6C0025DCA4 /* Build configuration list for PBXNativeTarget "Pixelator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AAE71428243B6C0025DCA4 /* Debug */,
+				99AAE71528243B6C0025DCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99AAE71628243B6C0025DCA4 /* Build configuration list for PBXNativeTarget "PixelatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AAE71728243B6C0025DCA4 /* Debug */,
+				99AAE71828243B6C0025DCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99AAE71928243B6C0025DCA4 /* Build configuration list for PBXNativeTarget "PixelatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AAE71A28243B6C0025DCA4 /* Debug */,
+				99AAE71B28243B6C0025DCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99AAE6E728243B690025DCA4 /* Project object */;
+}
