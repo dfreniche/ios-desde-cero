@@ -1,6 +1,6 @@
 # Episodio 018
 
-Emitido en Twitch el 21/04/2022 
+Emitido en Twitch el 26/04/2022 
 
 Hemos creado una pequeña App para iOS y Mac (usando Catalyst) para jugar con animaciones.
 

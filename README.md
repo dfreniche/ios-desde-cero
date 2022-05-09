@@ -14,7 +14,7 @@ Te espero en:
 
 ## ¿Cuándo lo perpetras?
 
-Los episodios se emiten Martes y Jueves en horario:
+Los episodios se emiten Lunes y Jueves en horario:
 
 |          | Martes y Jueves |
 | :--------| :---------- | 

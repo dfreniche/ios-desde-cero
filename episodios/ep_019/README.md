@@ -8,4 +8,4 @@ Hemos visto:
 - LazyVGrid
 - Cómo generar un menú automáticamente desde un array
 
-[![Episodio 018](http://img.youtube.com/vi/SG1fzKWA5-g/0.jpg)](https://youtu.be/SG1fzKWA5-g )
+[![Episodio 019](http://img.youtube.com/vi/SG1fzKWA5-g/0.jpg)](https://youtu.be/SG1fzKWA5-g )
