@@ -11,4 +11,4 @@ Hemos visto:
 - presentar Swiftformat, una herramienta para formatear nuestro código que utilizaremos en nuestros proyectos
 
 
-[![Episodio 022](http://img.youtube.com/vi/hcwIhtqRKGU/0.jpg)](https://youtu.be/hcwIhtqRKGU )
+[![Episodio 023](http://img.youtube.com/vi/hcwIhtqRKGU/0.jpg)](https://youtu.be/hcwIhtqRKGU )
