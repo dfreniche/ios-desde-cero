@@ -1,0 +1,9 @@
+--allman false
+--header "(C) Diego Freniche 2022 - MIT License"
+--varattributes same-line
+
+# Add or remove trailing comma from the last item in a collection literal.
+# https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#trailingcommas
+--commas always
+
+--leadingDelimiters
