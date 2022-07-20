@@ -44,7 +44,8 @@ struct PixelArtRealmRepository: PixelArtRepository {
     func delete(pixelArt: PixelArt) async -> Bool {
         do {
             try realm?.write {
-                if let found = realm?.objects(PixelArtRealm.self).filter({ $0.uuid == pixelArt.id }) {
+                if let found = realm?.objects(PixelArtRealm.self).filter({ $0.uuid == pixelArt.id })
+                {
                     realm?.delete(found)
                 }
             }
