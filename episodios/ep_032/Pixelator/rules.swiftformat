@@ -1,0 +1,23 @@
+# Use allman indentation style
+--allman false
+
+--header "(C) Diego Freniche 2022 - MIT License"
+
+--varattributes same-line
+
+# Add or remove trailing comma from the last item in a collection literal.
+# https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#trailingcommas
+--commas always
+
+--enable isEmpty
+
+--enable leadingDelimiters
+
+--enable markTypes
+--extensionmark
+
+# Insert blank line before class, struct, enum, extension, protocol or function declarations.
+# https://github.com/nicklockwood/SwiftFormat/blob/665c3c58923ee8ac36d3e44b17dc185229cce301/Rules.md#blanklinesbetweenscopes
+--enable blankLinesBetweenScopes
+
+--ifdef outdent
