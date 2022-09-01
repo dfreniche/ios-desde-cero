@@ -43,11 +43,11 @@ Si cancelo algún episodio lo anunciaré por [Twitter](https://twitter.com/dfren
 
 - un ordenador y conexión a Internet 😜
 - para escribir Apps iOS se necesita __un ordenador que corra macOS__. Big Sur o Monterrey son necesarios.
-- __Xcode 13.2__
+- __Xcode 13 o 14 (Beta)__
 - __Conocimientos básicos de programación__. No es imprescindible conocer Swift, aunque ayuda.
 - __Ganas de programar y pasar un buen rato__. Esto no es el trabajo o los estudios. Es para pasarlo bien y compartir.
 
-## Pero, de qué vas a hablar
+## Pero, ¿de qué vas a hablar?
 
 Aunque tengo una idea muy general de [lo que voy a ir viendo en los distintos episodios](Episodios.md), se verá lo que la comunidad quiera. 
 
@@ -63,6 +63,22 @@ Al día siguiente publicaré en esta [lista de reproducción de Youtube](https:/
 
 En la carpeta [Episodios](./episodios/) tienes el código usado en cada stream, junto con una pequeña descripción de lo que hemos visto y un enlace al vídeo correspondiente.
 
+## ¿Cómo uso el código de cada episodio?
+
+Si tienes instalado Xcode, tienes instalado `git`. Git es un sistema de control de versiones muy utilizado y el que usa Github. Para bajarte una copia completa de este repositorio lo más sencillo es que abras una terminal, te vayas a la carpeta que prefieras (con `cd Desktop` irías al Escritorio, por ej.) y escribas:
+
+```bash
+git clone https://github.com/dfreniche/ios-desde-cero
+```
+
+Esto crea una carpeta llamada `ios-desde-cero`. Si la exploras verás que en la carpeta Episodios está cada episodio, con el código como quedó al finalizar ese episodio. Haz doble click en el proyecto de Xcode y se abrirá.
+
+Una vez lo tengas bajado, para actualizarlo haz:
+
+```bash
+git pull origin
+```
+
 ## Ejemplos desarrollados
 
 |   App     |  iOS    |  macOS  |
@@ -70,6 +86,7 @@ En la carpeta [Episodios](./episodios/) tienes el código usado en cada stream, 
 |  [Adivina El Número](/episodios/ep_002/AboutMe/): App iOS con un About Me y un pequeño juego de adivina el número correcto | ![](img/AboutMe.png)   | |
 |  [Pokepedia](/episodios/ep_015/Pokepedia/): App iOS/macOS que usando http://pokeapi.com muestra Pokemons en listas, mapas, de uno en uno, etc. | ![](img/PokepediaiOS.png)  | ![](img/PokepediaMac.png) | 
 |  [Animations](/episodios/ep_019/Animations/): App iOS/macOS con distintos ejemplos de animaciones. | [![Click para ver el video](img/animations.png)](img/animations-video.mp4) |   |
+|  [Pixelator](/episodios/ep_033/Pixelator/): App iOS/macOS para dibujar Pixel Art | ![](img/pixelator.png) |   |
 
 
 ## Recursos

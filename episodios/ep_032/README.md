@@ -1,12 +1,11 @@
-# Episodio 031 - 
+# Episodio 032 - Último episodio antes de las vacaciones
 
-Emitido en Twitch el 18/07/2022 
+Emitido en Twitch el 21/07/2022 
 
 Hemos empezado con una nueva App Pixel Art para iOS y Mac (usando Catalyst).
 
 Hemos visto: 
-- Reorganizar el código para crear Realms con una Configuración determinada.
-- Reactivar SwiftLint!
-- Borrar datos con Realm
+- Pasar argumentos para eliminar mensajes de debug de AutoLayout
+- Activar Atlas Device Sync para sincronizar nuestros datos desde MongoDb Atlas hasta nuestros dispositivos 
 
-[![Episodio 031](http://img.youtube.com/vi/0tu4_koPVN4/0.jpg)](https://youtu.be/0tu4_koPVN4)
+[![Episodio 032](http://img.youtube.com/vi/45g87HRSISg/0.jpg)](https://youtu.be/45g87HRSISg )
