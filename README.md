@@ -94,3 +94,4 @@ git pull origin
 - [The Swift Programming Language en Español](https://swift-book-es.vercel.app). Tradución de [Mauricio Paternina](https://twitter.com/spaceinvadev)
 - https://github.com/Toni77777/awesome-swiftui-libraries
 - [Xcode Releases](https://xcodereleases.com/)
+- [Ejercicios resueltos de Swift](https://fernandoruizrico.com/swift-ejercicios-resueltos-i/)

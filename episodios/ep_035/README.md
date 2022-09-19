@@ -7,4 +7,4 @@ Hoy hemos visto:
 - Cómo crear una app CLI con Swift
 - Los mejores paquetes para: imprimir en consola con colores, procesar argumentos de línea de comandos, etc.
 
-[![Episodio 034](http://img.youtube.com/vi/Ox2ltzrp0r0/0.jpg)](https://youtu.be/Ox2ltzrp0r0 )
+[![Episodio 035](http://img.youtube.com/vi/Ox2ltzrp0r0/0.jpg)](https://youtu.be/Ox2ltzrp0r0 )
