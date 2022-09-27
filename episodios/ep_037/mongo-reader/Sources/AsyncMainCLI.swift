@@ -26,13 +26,15 @@ struct MyFirstCLIProject: AsyncParsableCommand {
         print("Starting download...".blue)
     
         if let data = await queryMongoDB() {
-            print("\(data)")
+            print("Raw data size \(data.count) \(data.debugDescription)")
             
             do {
-                let response: Response = try JSONDecoder().decode(Response.self, from: data)
+                let decoder = JSONDecoder()
+                decoder.nonConformingFloatDecodingStrategy = .convertFromString(positiveInfinity: "", negativeInfinity: "", nan: "NaN")
+                let response: Response = try decoder.decode(Response.self, from: data)
                 let movies = response.movies
                 for (index, movie) in movies.enumerated() {
-                    print("Movie \(index) :\(movie.year) - \(movie.title) - \(String(describing: movie.imdb.id))")
+                    print("Movie \(index) :\(movie.year) - \(movie.title) - \(String(describing: movie.imdb.rating))")
                 }
             } catch {
                 print("\(error)")

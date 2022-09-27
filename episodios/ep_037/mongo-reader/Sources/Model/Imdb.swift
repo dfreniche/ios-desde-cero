@@ -10,4 +10,5 @@ import Foundation
 
 struct Imdb: Decodable {
     let id: Int
+    let rating: Float
 }
